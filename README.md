@@ -1,4 +1,4 @@
-# Courses_LandingPage
+# Notary
 
 ## How to start?
 
