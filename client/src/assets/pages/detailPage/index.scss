@@ -1,0 +1,12 @@
+.detail {
+  display: flex;
+  padding: 5%;
+  gap: 5%;
+  background-color: grey;
+  img {
+    width: 40%;
+  }
+  .aboutText{
+    width: 40%;
+  }
+}

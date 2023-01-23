@@ -1,0 +1,187 @@
+#home {
+  #section1 {
+    width: 100%;
+    height: 87vh;
+    background-image: url("https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .text {
+      width: 30%;
+      color: white;
+      padding-top: 22%;
+      padding-left: 18%;
+
+      h1 {
+        font-size: 50px;
+        margin-top: 0;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  #section2 {
+    background-color: #f8f9fa;
+    padding-bottom: 8%;
+    .header {
+      text-align: center;
+
+      h1 {
+        margin-top: 0;
+        padding-top: 4%;
+        font-size: 38px;
+      }
+
+      span {
+        color: grey;
+        font-weight: 100;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .cards {
+      .top,
+      .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+
+        .card {
+          margin-top: 2%;
+          width: 20%;
+          padding: 3%;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+          .icon {
+            margin-top: 10%;
+            i {
+              font-size: 55px;
+            }
+          }
+          p {
+            color: grey;
+          }
+        }
+      }
+    }
+  }
+
+  #section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+    gap: 5%;
+    .left {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+
+      img {
+        width: 40%;
+      }
+    }
+
+    .right {
+      width: 35%;
+
+      .header {
+        color: rgb(54, 77, 89);
+        font-size: 28px;
+      }
+
+      .text {
+        width: 80%;
+      }
+
+      button {
+        background-color: #fed48d;
+        border: none;
+        padding: 3% 4%;
+        border-radius: 5px;
+      }
+    }
+  }
+  #section4 {
+    text-align: center;
+    padding: 0 6%;
+    background-color: #f8f9fa;
+    padding-bottom: 4%;
+    .header {
+      padding-top: 2%;
+      h1 {
+        color: rgb(54, 77, 89);
+        font-size: 35px;
+      }
+    }
+
+    .usersCards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1%;
+      .card {
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-top: 3%;
+        width: 20%;
+        overflow-wrap: break-word;
+        padding: 2%;
+        .header {
+          img {
+            width: 40px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+
+  #section5 {
+    padding: 4% 0;
+    display: flex;
+    width: 100%;
+
+    .flex {
+      display: flex;
+      justify-content: center;
+    }
+
+    .left {
+      width: 45%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .right {
+      display: flex;
+      width: 45%;
+
+      .rightLeft {
+        width: 45%;
+      }
+
+      .rightRight {
+        width: 45%;
+        margin-left: 4%;
+
+        .ant-collapse {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+button:hover {
+  cursor: pointer;
+}

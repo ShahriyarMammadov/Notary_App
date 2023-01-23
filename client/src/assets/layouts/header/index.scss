@@ -1,0 +1,36 @@
+header {
+  background-color: #fee2b3;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 3% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .active {
+    background-color: grey;
+    color: white;
+  }
+
+  .logo {
+    a {
+      font-size: 27.2px;
+      color: rgb(0, 0, 0);
+      font-weight: 900;
+    }
+  }
+
+  nav {
+    width: 30%;
+    display: flex;
+    gap: 8%;
+    a {
+      color: black;
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}
+a {
+  text-decoration: none;
+}
